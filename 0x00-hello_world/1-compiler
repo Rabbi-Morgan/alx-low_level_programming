@@ -1,2 +1,2 @@
-i#!/bin/bash
-gcc $CFILE -c
+#!/bin/bash
+gcc -c $CFILE
