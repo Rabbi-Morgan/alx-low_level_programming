@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Enter file name"
+read name
+touch 0x00-hello_world/${name}
+chmod u+x 0x00-hello_world/${name}
+vi 0x00-hello_world/${name}
+
