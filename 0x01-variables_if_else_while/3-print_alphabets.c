@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Description: print out all alphabets
+ * main - Entry point
+ * Description: 'print something to the terminal'
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char ch;
-	
+	char ch;	
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 		putchar(ch);
 	for (ch = 'A' ; ch <= 'Z' ; ch++)
