@@ -2,6 +2,7 @@
 
 /**
  * _islower - entry point
+ * @c - blah
  * Description: 'nothing to see here'
  * Return: ''
  */
