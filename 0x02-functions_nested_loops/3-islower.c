@@ -1,21 +1,16 @@
-#include "main.h"
+#include <stdio.h>
+#include <ctype.h>
 
 /**
- * _islower - entry point
- * @c - integer c
- * Description: 'nothing to see here'
- * Return: ''
+ * _islower: uhdgshj
+ * Return: 0 or 1
  */
 int _islower(int c)
 {
-	char i;
-	int lower = 0;
-
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		if (i == c)
-			lower = 1;
-	}
-
-	return (lower);
+	if (islower(c) >= 1)
+		return (1);
+	else 
+		return (0);
 }
+
+
