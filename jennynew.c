@@ -1,21 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 
 void main(void)
 {
+	char firstname[32] = "Anuoluwapo";
+	char lastname[] = "Omobolaji";
+
 	
-	int i, c;
-	int a[5];
+	strcat(firstname, lastname);	
+	printf("%s",firstname);
 
-
-	printf("%p\n", a);
-	printf("%p\n", &a);
-	printf("%p\n", &a[0]);
-	for (i=0;i<=20;i++)
-	{
-		for(c=0;c<=i;c++)
-		{
-			putchar('*');
-		}
-		putchar('\n');
-	}
 }
